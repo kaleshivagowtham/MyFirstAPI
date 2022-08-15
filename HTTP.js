@@ -9,7 +9,7 @@ const server = http.createServer((req , res) => {
         res.end('This is about us');
     }
     else {
-        res.end('Nothing found | 404')
+        res.end('Nothing found | 404');
     }
 })
 
